@@ -190,8 +190,9 @@
 }
 
 .reservation__title {
-  text-align: center;
   margin-top: 100px;
+  margin-bottom: 80px;
+  text-align: center;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -200,7 +201,6 @@
 }
 
 .reservation__form {
-  margin-top: 80px;
   margin-bottom: 120px;
   max-width: 385px;
 }
@@ -263,31 +263,4 @@
   flex-direction: row;
   gap: 12px;
   align-self: center;
-}
-
-.reservation {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #d9e7ff;
-  background-image: url(../images/background_reservation.svg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.reservation__title {
-  text-align: center;
-  margin-top: 100px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 44px;
-  line-height: 52px;
-}
-
-.reservation__form {
-  margin-top: 80px;
-  margin-bottom: 120px;
-  max-width: 385px;
 }
