@@ -1,4 +1,5 @@
 .reservation {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -7,6 +8,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  z-index: 1;
 }
 
 .reservation__title {
